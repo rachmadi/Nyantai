@@ -1,4 +1,4 @@
-package info.rekayasa.nyantai;
+package info.rekayasa.nyantai.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,6 +18,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+
+import info.rekayasa.nyantai.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -51,8 +53,9 @@ public class MainActivity extends AppCompatActivity {
             fab.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                            .setAction("Action", null).show();
+//                    Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                            .setAction("Action", null).show();
+                    startActivity(new Intent(MainActivity.this, PostActivity.class));
                 }
             });
 

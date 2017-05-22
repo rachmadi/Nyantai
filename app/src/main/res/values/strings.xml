@@ -10,4 +10,6 @@
     <string name="signin_button_text">Sign In</string>
     <string name="action_sign_out">Sign Out</string>
     <string name="profile">Profile</string>
+    <string name="content_hint_text">Write something...</string>
+    <string name="post_menu_title">Save</string>
 </resources>

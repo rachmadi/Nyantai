@@ -1,4 +1,4 @@
-package info.rekayasa.nyantai;
+package info.rekayasa.nyantai.models;
 
 /**
  * Created by rachmadi on 4/17/17. POJO = Plain Old Java Object
